@@ -81,11 +81,8 @@ sudo nc -lvnp 443
 
 
 In order to upload the binary in the target system, we need to find the appropriate folder for that. We will be
-
 using PowerShell for the following tasks since it gives us much more features then the regular command
-
 prompt. In order to use it, we will have to specify it each time we want to execute it until we get the reverse
-
 shell. To do that, we will use the following syntax: powershell -c command
 
 The -c flag instructs the powershell to execute the command.
